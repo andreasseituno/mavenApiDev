@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/transaction/adicionar
+Content-Type: application/json
+
+{
+  "descricao": "descricao",
+  "valor": 10.90,
+  "data_transacao": "20230101",
+  "tipo_transacao": "tipo_transacao"
+}

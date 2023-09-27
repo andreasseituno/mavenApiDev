@@ -1,0 +1,8 @@
+PUT http://localhost:8080/api/transaction/atualizar/1
+Content-Type: application/json
+
+{
+  "descricao": "new descri",
+  "valor": 10.90,
+  "tipo_transacao": "new trans"
+}
